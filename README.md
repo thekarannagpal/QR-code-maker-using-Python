@@ -1,5 +1,5 @@
 # QR-code-maker-using-Python
-# install pillow and qrcodebefore exceution 
+# install pillow and qrcode before exceution 
 # pip install pillow
 # pip install qrcode
 import qrcode
@@ -14,7 +14,7 @@ qr = qrcode.QRCode(
     border=5
 )
 
-qr.add_data("https://github.com/thekarannagpal/CarRentalSystem")
+qr.add_data("https://github.com/thekarannagpal/QR-code-maker-using-Python/edit/main/README.md")#use user url here
 qr.make(fit=True)
 
 image = qr.make_image(fill_color="black", back_color="white")
